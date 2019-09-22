@@ -5,8 +5,11 @@ The project is designed to register clients for a visit to a specialist. The cus
 Create new database in MySQL
 Change the connection settings for the database:
 registration-app
+
 -app
+
 --Config
+
 ---Connection.php
 
 ```bash
