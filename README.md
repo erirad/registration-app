@@ -29,9 +29,13 @@ composer dumpautoload -o
 ```
 ## Operating instructions
 Lightboard page – the waiting list is displayed.
+
 Administration page – form to create a new client.
+
 Specialist page – client administration page where the specialist confirms the completion of the client visit.
+
 Visitor page – page for a customer to adjust or cancel a visit.
+
 Statistic page – customer service statistics, which can be filtered by specialist.
 
 
