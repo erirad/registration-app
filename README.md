@@ -15,7 +15,8 @@ registration-app
     private $database = "database_name";
 ```
 ## Installation
-Install database.  [Go to this link] and database would be installed automatically.
+Install database.  
+Go to link https://127.0.0.1:8000/install.php and database would be installed automatically.
 Composer [install]( https://getcomposer.org/download/)
 Update the Composer autoloader 
 Run the command :
@@ -23,11 +24,11 @@ Run the command :
 composer dumpautoload -o
 ```
 ## Operating instructions
-Lightboard page – the waiting list is displayed.
-Administration page – form to create a new client.
-Specialist page – client administration page where the specialist confirms the completion of the client visit.
-Visitor page – page for a customer to adjust or cancel a visit.
-Statistic page – customer service statistics, which can be filtered by specialist.
+Lightboard page â€“ the waiting list is displayed.
+Administration page â€“ form to create a new client.
+Specialist page â€“ client administration page where the specialist confirms the completion of the client visit.
+Visitor page â€“ page for a customer to adjust or cancel a visit.
+Statistic page â€“ customer service statistics, which can be filtered by specialist.
 
 
 
