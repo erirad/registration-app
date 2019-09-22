@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "config.php"
+    ]
+  },
+  "require": {
+    "plasticbrain/php-flash-messages": "^1.0"
+  }
+}
