@@ -2,7 +2,8 @@
 ## Project Overview	
 The project is designed to register clients for a visit to a specialist. The customer waiting time is displayed.  Statistics are also collected on when a visit to a specialist is most convenient. The project is not designed to register customers at a specific hour, customers are waiting in line.
 ## Configuration instructions
-Create new database in MySQL
+Create new database in MySQL.
+
 Change the connection settings for the database:
 
 registration-app
