@@ -4,18 +4,16 @@ The project is designed to register clients for a visit to a specialist. The cus
 ## Configuration instructions
 Create new database in MySQL
 Change the connection settings for the database:
+
 registration-app
 
--app
-
---Config
-
----Connection.php
+--config.php
 
 ```bash
-    private $username = "username";
-    private $password = "password";
-    private $database = "database_name";
+    define('DBHOST','localhost');
+    define('DBUSER','root');
+    define('DBPASS','root');
+    define('DBNAME','database_name');
 ```
 ## Installation
 Install database.  
