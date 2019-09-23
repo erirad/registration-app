@@ -31,8 +31,8 @@ SET time_zone = "+00:00";
 CREATE TABLE `clients` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT now(),
-  `updated_at` datetime NULL DEFAULT NULL ON UPDATE now(),
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `served` tinyint(1) NOT NULL DEFAULT '0',
   `duration` int(11) NOT NULL,
   `login_key` varchar(8) NOT NULL,
