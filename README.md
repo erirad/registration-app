@@ -18,7 +18,7 @@ registration-app
 ```
 ## Installation
 Install database.  
-Go to link https://127.0.0.1:8000/install.php and database would be installed automatically.
+Go to link https://127.0.0.1:8001/install.php and database would be installed automatically.
 
 Composer [install]( https://getcomposer.org/download/)
 
