@@ -61,7 +61,6 @@ class Loader
         }
     }
 
-    //arba pervadinti arba pakeisti. (LOAD OBJECT)
     private function getParams($path, $object, $method)
     {
         if (isset($path[3]) && !empty($path[3])) {
