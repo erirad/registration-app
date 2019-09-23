@@ -15,8 +15,13 @@ registration-app
     define('DBUSER','root');
     define('DBPASS','root');
     define('DBNAME','database_name');
+    define('DOMAIN', 'http://127.0.0.1:8001/');
 ```
 ## Installation
+Start services from the command line
+```bash
+registration-app> php -S 127.0.0.1:8001 
+```
 Install database.  
 Go to link https://127.0.0.1:8001/install.php and database would be installed automatically.
 
